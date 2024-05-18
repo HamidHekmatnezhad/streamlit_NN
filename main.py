@@ -4,7 +4,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 from scipy.special import expit, logit
 
-
 class Neural_Network:
 
     def __init__(self, INPUT_NODES, HIDDEN_NODES, OUTPUT_NODES, LEARNING_RATE):
